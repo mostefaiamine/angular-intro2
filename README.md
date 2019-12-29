@@ -5,18 +5,14 @@ Chouettes, des exercices !
 Impleméntez les exercices dans les composants associés
 
 ## Exercice 1 :
-Implémenter une application effectuant les éléments suivants :
--	Somme de deux vecteurs
--	Soustraction de deux vecteurs
--	Concaténation de deux vecteurs
--	Fusion de deux vecteurs (première moitié du premier vecteur associée à la deuxième moitié du deuxième vecteur)
+Implémenter une barres d'outils avec les spécifications suivantes :
+-	Une barre d'outils est un ensemble de boutons
+-	Chaque bouton est constitué d'un texte et d'une icône
+-	Quand on clique sur un bouton de la barre, cette barre doit nous indiquer exactement quel bouton a été cliqué.
 
 ## Exercice 2
-Un hôtel propose les hébergements suivants : chambre et suite. Il propose aussi les services suivants : piscine, thalasso et garderie d’enfants.
--	Faire une conception orientée objet avec UML 
--	Sachant que la piscine est un service gratuit, améliorer la conception de façon à calculer le coût d’un séjour (hébergement + services)
--	Implémenter la conception avec TypeScript
--	Affichez la simulation d’un séjour d’un client dans l’hôtel
+Choisissez une des applications les plus utilisées sur le web (Facebook, Twitter ou Youtube)
 
+Proposez une maquette de ces applications en utilisant Angular
 Copyright (c) 2019 - Mostefai Mohammed Amine
 
