@@ -1,0 +1,7 @@
+<div class="carte">
+    <h3 [ngClass]="{cool:evaluation>2}">{{title}}</h3>
+    <h4 class="mon-style">{{domain}}</h4>
+    <p>{{description}}</p>
+    <p>{{evaluation}}</p>
+    <app-evaluation3 [(evaluation)]="evaluation"></app-evaluation3>
+</div>

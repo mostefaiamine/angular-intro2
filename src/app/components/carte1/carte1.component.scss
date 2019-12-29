@@ -1,0 +1,10 @@
+$style-color: red;
+$size: 7px;
+
+span.aa {
+  display: block;
+  padding: $size * 2;
+  border: 2px solid lighten($style-color, 50%); 
+  color: $style-color;
+}
+

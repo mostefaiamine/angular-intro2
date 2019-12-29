@@ -1,0 +1,5 @@
+<app-header [title]="'Binding de style'"></app-header>
+<app-carte4 *ngFor="let t of trainings" [title]="t.title" [domain]="t.domain" [description]="t.description"
+    [evaluation]="t.evaluation" [recommanded]="t.recommanded">
+
+</app-carte4>

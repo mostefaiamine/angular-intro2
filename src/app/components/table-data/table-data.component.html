@@ -1,0 +1,17 @@
+<div>
+    {{ds.getText()}}
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Domain</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let t of trainings">
+            <td>{{t.title}}</td>
+            <td>{{t.domain}}</td>
+        </tr>
+    </tbody>
+</table>

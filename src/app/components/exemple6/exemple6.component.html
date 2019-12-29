@@ -1,0 +1,13 @@
+<app-header [title]="'Double Binding'"></app-header>
+<p>
+    Text : <input [(ngModel)]="text" />
+</p>
+<p>
+    text : {{text}}
+</p>
+<p><button (click)="change()">Change Text</button></p>
+
+<app-carte6 *ngFor="let t of trainings" [title]="t.title" [domain]="t.domain" [description]="t.description"
+    [evaluation]="t.evaluation">
+
+</app-carte6>
