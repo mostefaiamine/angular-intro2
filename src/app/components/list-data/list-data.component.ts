@@ -1,20 +1,21 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Training } from 'src/app/model/training';
 import { Data } from 'src/app/model/data';
-import { DataService } from 'src/app/services/data.service';
+import { TrainingService } from 'src/app/services/training/training.service';
+
 
 @Component({
   selector: 'app-list-data',
   templateUrl: './list-data.component.html',
   styleUrls: ['./list-data.component.scss'],
-  providers: [DataService]
+  providers: []
 })
 export class ListDataComponent implements OnInit {
 
   @Input() trainings: Training[] = [];
 
 
-  constructor(public ds: DataService) { }
+  constructor(public ser: TrainingService) { }
 
   ngOnInit() {
 

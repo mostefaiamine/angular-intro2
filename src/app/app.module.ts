@@ -27,7 +27,7 @@ import { TableDataComponent } from './components/table-data/table-data.component
 import { Exemple7Component } from './components/exemple7/exemple7.component';
 import { TrainingEditorComponent } from './components/training-editor/training-editor.component';
 import { Exemple8Component } from './components/exemple8/exemple8.component';
-import { UIModule } from 'src/ui/ui.module';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,8 +58,7 @@ import { UIModule } from 'src/ui/ui.module';
   imports: [
     BrowserModule,
     CommonModule,
-    FormsModule,
-    UIModule
+    FormsModule
   ],
   providers: [
 
